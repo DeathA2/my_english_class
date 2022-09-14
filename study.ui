@@ -1,0 +1,3329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Study</class>
+ <widget class="QDialog" name="Study">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>600</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/icon/img/home.png</normaloff>:/new/icon/img/home.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>261</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::WheelFocus</enum>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::ActionsContextMenu</enum>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(226, 226, 226,100);
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAsNeeded</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAsNeeded</enum>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustIgnored</enum>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>259</width>
+      <height>489</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QToolBox" name="toolBox">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::WheelFocus</enum>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QToolBox::tab {
+                            border: 2px solid #C4C4C3;
+                            border-bottom-color: RGB(0, 0, 0);         
+							background-color: rgb(248, 255, 176);
+                        }
+ QToolBox::tab:selected {
+                            background-color: #f14040;
+                            border-bottom-style:solid;
+border-width: 1px;
+border-color: black;
+                        }
+QToolBox::page{
+							pageSpacing: fit-content;
+}
+
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="midLineWidth">
+        <number>0</number>
+       </property>
+       <property name="currentIndex">
+        <number>5</number>
+       </property>
+       <property name="tabSpacing">
+        <number>5</number>
+       </property>
+       <widget class="QWidget" name="page">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>216</width>
+          <height>435</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>12 Types of Tenses</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="psimple">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+
+</string>
+           </property>
+           <property name="text">
+            <string>Present Simple </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pCont">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Present Continuous</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pPer">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Present Perfect</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QPushButton" name="pPerCon">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Present Perfect Continuous</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QPushButton" name="paSimp">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Past Simple</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QPushButton" name="paCont">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Past Continuous</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QPushButton" name="paPer">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Past Perfect</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QPushButton" name="paPerCont">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Past Perfect Continuous</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QPushButton" name="fSimp">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Future Simple</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QPushButton" name="fCont">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Future Continuous</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QPushButton" name="fPer">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Future Perfect</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0">
+          <widget class="QPushButton" name="fPerCont">
+           <property name="text">
+            <string>Future Perfect Continuous</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>237</width>
+          <height>264</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Passive Voice</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QPushButton" name="passive">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Cấu trúc ngữ pháp</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="passivedb">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Trường hợp đặc biệt</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>237</width>
+          <height>264</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Wish</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <item>
+          <widget class="QPushButton" name="wish1">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Loại 1 - Tương lai</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="wish2">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Loại 2 - Hiện tại</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="wish3">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Loại 3 - Quá khứ</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>237</width>
+          <height>264</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Tag Question</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <widget class="QPushButton" name="tagQue">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Cấu trúc</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="tagQueSpe">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Dạng đặc biệt</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>237</width>
+          <height>264</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Conditional Sentences</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QPushButton" name="con1">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Loại 1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="con2">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Loại 2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="con3">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Loại 3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="condn">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Đảo ngữ</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="conSpe">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Dạng Đặc Biệt</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>237</width>
+          <height>264</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Comparison</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QPushButton" name="comBang">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>So sánh bằng</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="comHon">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>So sánh hơn</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="comNhat">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>So sánh nhất</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="comKep">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>So sánh kép</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="comMul">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>So sánh gấp nhiều lần</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="comTab">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Bảng so sánh adj, adv bất quy tắc</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="comDang">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Các dạng so sánh</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_7">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>237</width>
+          <height>264</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Relative Clauses</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QPushButton" name="relaCla">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Đại từ quan hệ và trạng từ quan hệ</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="relaRutgon">
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(167, 255, 189, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+           </property>
+           <property name="text">
+            <string>Rút gọn và lược bỏ</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>20</y>
+     <width>851</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0, 0, 0, 0));</string>
+   </property>
+   <property name="currentIndex">
+    <number>12</number>
+   </property>
+   <property name="tabsClosable">
+    <bool>true</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="tab">
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0, 0, 0, 0));</string>
+    </property>
+    <attribute name="title">
+     <string>Present Simple</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>HIỆN TẠI ĐƠN
+1. Công thức
+VỚI ĐỘNG TỪ THƯỜNG
+- Khẳng định: S+ Vs/es+O
+- Phủ định: S+ DO/DOES + NOT + V +O
+- Nghi vấn: DO/DOES + S+ V+O?
+VỚI ĐỘNG TỪ TOBE
+- Khẳng định: S+ AM/IS/ARE + O
+- Phủ định: S + AM/IS/ARE + NOT + O
+- Nghi vấn: AM/IS/ARE + S+O
+2. Cách dùng:
+- Thì hiện tại đơn diễn tả một chân lý, một sự thật hiển nhiên.
+• The sun ries in the East. 
+(Mặt trời mọc từ đàng đông)
+• Tom comes from England. 
+ (Tom đến từ nước Anh)
+- Thì hiện tại đơn diễn tả 1 thói quen, một hành động xảy ra thường xuyên ở hiện tại.
+• Mary often goes to school by bicycle.
+ (Mary thường đến trường bằng xe đạp)
+• I gets up early every morning.
+ (Tôi dậy sớm vào möi buổi sáng)
+Lưu ý:
+- Ta thêm &quot;es' sau các động từ tận cùng là : O, S, X, CH, SH.
+
+Thì hiện tại đơn diễn tả năng lực của con người   
+• He plays badminton very well
+ (Anh ấy chơi cầu lông rất giỏi)
+• Thì hiện tại đơn còn diễn tả một kế hoạch sắp xếp truớc trong tương lai hoặc thời khoá biểu, đặc biệt dùng với các động từ di chuyển.
+3. Dấu hiệu nhận biết:
+Từ nhận biết:
+   • Everyday, usually, often, never, hardly, in the morning, on Mondays, at weekends, in spring, summer.
+4. Cách sử S và ES
+Thêm s vào đồng sau hầu hết động từ:
+   • Live - Lives
+   • Work - Works
+Thêm es sau ch, sh, s. x:
+   • Watch - Watches
+   • Finish – finishes
+Bỏ y và thêm ies với động từ kết thúc bởi 1 phụ âm + y:
+   • Study - Studies
+NOT: Play - Plaies (trước y là nguyên âm a)
+Động từ bất quy tác:
+  • do - does
+  • go -goes
+  • have-has</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Present Continuous</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_3">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_6">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_2">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>HIỆN TẠI TIẾP DIỄN
+1. Công thức
+- Khẳng định: S+ be (am/ is/ are) + V_ing +O
+- Phủ định S + BE + NOT + V_ing +O
+- Nghi vấn: BE + S+ V_ing +O
+2. Cách dùng thì hiện tại tiếp diễn
+Thì hiện tại tiếp diễn tả một hành động đang diễn ra và kéo dài một thời gian ở hiện tại.
+• The children are playing football now.  (Bọn trẻ đang đá bóng)
+Thì này cũng thường tiếp theo sau câu để nghị, mệnh lệnh.
+• Look! the child is crying.   (Nhìn kia! Đứa bé đang khóc)
+• Be quiet! The baby is sleeping in the next room.(Im lặng!! Đứa bé đang ngủ ở phòng bên cạnh)
+Thì này còn diễn tả 1 hành động xảy ra lập đi lặp lại dùng với phó từ ALWAYS:
+• He is always borrowing our books and then he doesn't remember
+(Anh ấy luôn luôn mượn sách của chúng tôi và sau đó anh quên mất)
+Thì này còn được dùng để diễn tả một hành động sắp xảy ra (ở tương lai gần)
+• He is coming tomorow (Ngày mai anh ấy sẽ đến)
+Lưu ý:
+Không dùng thì này với các động từ chỉ nhận thức chi giác như: tobe, see, hear, understand, know. like, want. glance, feel, think, smell, love. hate, realze, seem, remmber, forget.
+• l am tired now. (Bây giờ tôi đang mệt)
+• She wants to go for a walk at the moment.
+• Do you understand your lesson?
+3. Dấu hiệu nhận biết:
+- Từ nhận biết:
+ • Now, right now, at present, at the moment, Look!, Listen!, Be carefull, Hurry up! 
+4. Dạng đuôi &quot;ing&quot; của động từ
+Động từ kết thúc bởi e, ta bỏ e thêm ing
+• Have - Having
+• Make - Making
+Động từ kết thúc bởi ee, ta thêm ing mà không bỏ e
+• See - Seeing
+• Agree - Agreeing
+Động từ kết thúc bởi le, ta đổi le - y rổi thêm ing
+• Lie - Lying
+• Die - Dying
+Động từ kết thúc bởi một trọng âm chúa 1 nguyên âm + 1 phụ âm, ta gấp đôi phụ âm cuối rồi thêm ing
+• Run - Running
+• Permit - Permitting</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Present Perfect</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_7">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_4">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_8">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_3">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>HIỆN TẠI HOÀN THÀNH
+1. Công thức:
+- Khẳng định: S+ have/ has + Past participie (V3) +0
+- Phủ định: S + have/ has + NOT + Past participle +O
+- Nghi vấn: have/ has + S+ Past participle +O
+2. Cách dùng :
+Hành động đã hoàn thành cho tới thời điểm hiện tại mà không để cập tới nó xảy ra khi nào.
+ I've done all my homeworks (Tôi đã làm hết bài tộp về nhà)
+Hành động bắt đầu ở quá khứ và đang tiếp tục ở hiện tại.
+• They've been married for nearly fifty years (Họ đã kết hôn được 50 năm)
+Note :
+-Chúng ta thường hay dùng Thì hiện tại hoàn thành tiếp diễn cho những trường hợp như thế này
+• She has ived in Liverpool al her life. (Cô ấy đã sống cả đời ở Liverpool)
+Hành động đã từng làm trước đây và bây giờ vẫn còn làm
+• He has written three books and he is working on another book. (Anh ấy đã viết được 3 cuốn sách và đang viết cuốn tiếp theo)
+Một kinh nghiệm cho tới thời điểm hiện tại (thường dùng trạng từ ever)
+My last birthday was the worst day I've ever had (Sinh nhật năm ngoái là ngày tệ nhất đời tôi)
+Về một hành động trong quá khứ nhưng quan trọng tại thời điểm nói
+• I can't get my house. I've lost my keys. (Tôi không thể vào nhà được. Tôi đánh mất chùm chìa khóa của mình rồi.)
+Đặc biệt: 
+Trong một số trường hợp, ta sử dụng trạng thái quá khứ phân từ của động từ TOBE: BEEN như một dạng quá khứ phân từ của động từ GO.
+3. Dấu hiệu nhận biết:
+Từ nhận biết: 
+- just, recently, lately: gần đây, vừa mới  
+- already: rồi
+- before: truớc đây
+- ever: đã từng
+- never: chưa từng, không bao giờ
+- for + N-quảng thời gian: trong khoảng (for a year. for a long time.)
+- since + N- mốc/điểm thời gian: từ khi (since 1992, since June, .)
+- yet: chưa (dùng trong câu phủ định và câu hỏi)
+- so far = unti; now = up; to now = up; to the present: cho đến bây giờ
+Dạng của động từ Thì hiện tại hoàn thành:
+• Have/has + past participle (quá khứ phân từ)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Present Prefect Continuous</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_9">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_5">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_10">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_4">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>HIỆN TẠI HOÀN THÀNH TIẾP DIỄN
+1. Công thức:
+- Khẳng định: S + has/have + been + V_ing +O
+- Phủ định: S + Hasn't/ Haven't + been + V-ing +O
+- Nghi vấn: Has/Have + S+ been + V-ing + O?
+2. Cách dùng :
+- Hành động bất đầu ở quá khứ và còn đang tiếp tục ở hiện tại (nhấn mạnh tính liên tục)
+• She has been waiting for you all day (- and she's still waiting now)
+(Cô nàng đã đợi cậu cả ngày rồi (và bây giờ cô ấy vẫn đang đợi))
+- Hành động đã kết thúc trong quá khứ, nhưng chúng ta quan tâm tới kết quả tới hiện tại.
+• It has been raining (= and the streets are still wet)
+Trời vừa mưa xong (và những con đường còn ướt lắm)
+3. Dấu hiệu nhận biết:
+Từ nhận biết:
+• all day, all week, since, for, for a long time, almost every day this week, recently, lately, in the past week, in recent years, up until now, and so far.
+4. Non-continuous verbs
+Động từ không có dạng tiếp diễn vì thế ta không sử dụng những động từ này trong các thì tiếp diễn. 
+Đây thường là những động từ mà ta không thể nhìn thấy hành động của chủ thể (want - muốn, need -cần...):
+-   Abstract verbs : động từ trừu tượng
+  • To be, to want, to seem, to care, to exist..
+-  Possession verbs : động từ chỉ sở hữu
+  • To own, to belong, to possess
+-  Emotion verbs : động từ chỉ cảm xúc
+  • To love, to like, to dislike, to fear, to mind ,.
+Ex : We have loved each other for 5 year (- we still love\neach other now)
+NOT: We have been loving each other for 5 year ( we are still loving each other now)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>Past Simple</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_11">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_6">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_12">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_5">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>QUÁ KHỨ ĐƠN
+1. Công thức
+Với Động Từ Thường
+- Khẳng định: S+ V(quá khứ) + O
+- Phủ định: S+ DID+ NOT + V+O
+- Nghi vấn: DID + S+V+O?
+Với TOBE
+- Khẳng định: S+ WAS/WERE +O
+- Phủ định: S+ WAS/ WERE + NOT + O
+- Nghi vấn: WAS/WERE + S+O?
+2.Cách dùng:
+Thì quá khứ đơn diễn tả hành động đã xảy ra và kết thúc trong quá khứ với thời gian xác định. 
+ - Diễn đạt một hành động xảy ra một, một vài lần hoặc chưa bao giờ xảy ra trong quá khứ
+• He visited his parents every weekend
+(Anh ấy đến thăm bố mẹ của anh ấy mỗi cuối tuần.)
+ - Diễn đạt các hành động xảy ra liên tiếp trong quá khứ
+• She came home, switched on the computer and checked her e-mails
+ (Cô ấy vào nhà bật máy tinh và kiếm tra emails)
+ - Diễn đạt một hành động xen vào một hành động đang diễn ra trong quá khứ
+• When I was having breakfast, the phone suddenly rang
+ (Khi tôi đang ăn sáng thì đột nhiên điện thoại reo lên).
+ - Dùng trong câu điều kiện loại I:
+ • If I had a million USD, I would buy that car
+  (Nếu tôi là 1 ti phú, tôi sẽ mua chiếc xe đó)
+3. Dấu hiệu nhận biết:
+Từ nhận biết:
+ • yesterday, ago, last, first, later, then, after that, finally, at last...</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>Past Continuous</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_27">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_8">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_15">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_26">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_14">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>QUÁ KHỨ TIẾP DIỄN
+1.Công thức:
+- Khẳng định: S+ was/were + V_ing + O
+- Phủ định: S+ wasnt/werent+ V-ing + O
+- Nghi vấn: Was/Were + S+ V-ing + O?
+2.Cách dùng
+Diễn đạt một hành động đang xảy ra tại một thời điểm trong quá khứ.
+• What were you doing at 8:30 last night?
+ (Bạn đang làm gì vào lúc 8:30 tối qua?)
+Diễn đạt hai hành động xảy ra song song trong quá khứ
+• While I was taking a bath, she was using the computer.
+ (Trong khi tôi đang tám thì cô ấy dùng máy tính.)
+Diễn đạt hành động đang xảy ra thì có hành động khác xen vào
+I was listening to the news when she phoned.
+ (Tôi đang nghe tin tức thì cô ấy gọi tới.)
+3. Dấu hiệu nhận biết:
+Từ nhận biết:
+While, when, at that time, at + giờ quá khứ...
+4. Non-continuous verbs
+Động từ không có dạng tiếp diễn vì thế ta không sử dụng những động từ này trong các thì tiếp diễn.
+Đây thường là những động từ mà ta không thể nhìn thấy hành động của chủ thể (want - muốn, need - cần..)
+  - Abstract verbs: động từ trừu tượng
+  To be, to want, to seem, to care, to exist...
+  - Possession verbs : động từ chỉ sở hữu
+  • To own, to belong. to possess
+  - Emotion verbs : động từ chỉ cảm xúc
+  • To love, to like, to dislike, to fear, to mind .
+    Ex : We have loved each other for 5 year (= we still love each other now)
+    NOT : We have been loving each other for 5 year (= we are still loving each other now)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>Past Perfect</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_29">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_15">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_16">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_28">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_15">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>QUÁ KHỨ HOÀN THÀNH
+1.Công thức
+Khẳng định: S+ had+ V3/-ed
+• They had finished before I arrived
+ (Họ đã hoàn thành trước khi tôi đến)
+• I fell in love after we had met in the first
+ (Tôi đã yêu anh ta ngay từ lần đầu tiên gặp nhau)
+Phủ định: S+ had not / hadn't + V3/-ed
+• I hadn't completed homework before my teacher came
+ (Tôi đã không hoàn thành bải tập về nhà trước khi cô giáo đến)
+• After she had fell in love with him, she didn't love another person
+ (Sau khi yêu anh, cô chẳng yêu một ai khác nữa)
+Nghi vấn: Từ để hỏi + had + S+ V3/-ed.?
+• Had you completed all homework before your teacher came?
+ (Bạn đã hoàn thành hết bài tập trước khi cô giáo đến à?)
+• What had you thought before I asked the question?
+ (Bạn đã nghĩ gì trước khi tôi hỏi?)
+2.Cách dùng
+a. Khi có một hành động xảy ra và hoàn thành trước một hành động khác trong quá khứ
+Trong câu thường có 2 vế, hành động nào xảy ra trước thì dùng quá khứ hoàn thành, hành động nào xảy ra sau thì dùng quá khứ đơn
+Chúng ta thường sử dụng các từ nối như before, after, just, when, as soon as, by the time, until,.
+  • He had gone to school before Sarah came
+   (Cậu ấy đã tới trường trước khi Sarah đến)
+  • After I had cieaned the room, my mom called
+   (Sau khi tôi dọn xong phòng thì mẹ gọi)
+ • The police came when the robber had gone away
+   (Cảnh sát tới sau khi tên trộm kịp bỏ trốn)
+ • By the time I met you, I had worked for Google for 10 years
+   Vào thời gian tôi gặp bạn, tôi đã làm việc cho Google khoảng 10 năm.
+b. Hành động xảy ra một khoảng thời gian trong quá khứ, trước một mốc thời gian khác
+ • I had lived abroad for two years when I received the letter from my best friend
+ (Tôi đã sống ở nước ngoài được hai năm trước khi nhận được thư từ bạn thân)
+  • Jane had studied in Japan before she did her master's at Oxford.
+ (Jane đã học ở Nhật trước khi cô ấy tốt nghiệp truờng Oxford)
+ • We had had dinner when she arrived
+ (Chúng tôi đã ăn tối khi có ấy đến)
+c. Hành động xảy ra như là diều kiện tiên quyết cho hành động khác
+• I had prepared for the exams and was ready to do well.
+ (Tôi đã chuẩn bị kĩ càng cho bài kiểm tra và sẵn sàng để làm tốt)
+• Henry had lost fifty pounds and could begin anew.
+ (Henry đã mất 50 bảng Anh và có thể phải bắt đầu lại từ đầu)
+
+3. Dấu hiện nhận biết thì quá khứ hoàn thành
+Từ nhận biết:
+• until then, by the time. prior to that time, before. after, for, as soon as, by, .
+Trong câu thường có các từ: before, after, when by, by the time, by the end of + time in the past.
+• When I got up this morning, my father had already left.
+  (Khi tôi thức dậy vào buổi sáng bố tôi đã rời đi)
+• By the time I met you, I had worked in that company for five
+
+4. Một số cấu trúc câu sử dụng thì quá khứ hoàn thành
+ Câu điều kiện loại 3: nhằm diễn tả điều kiện không có thực
+  • If I had known that, I would have acted differently.
+  (Nếu biết trước tôi sẽ không làm vậy)
+  • She would have come to the party if she had been invited.
+  (Cô ấy sẽ đến buổi tiệc nếu như được mời)
+  • If Lannie had had a rich husband, she would have by everything
+  (Nếu Lannie có một người chống giàu có, Cô ta sẽ mua hết tất cả mọi thứ)
+ Câu Wish: nhằm diễn tà ước muốn trong quá khứ
+ • I wish I had told her about the accident
+  (Uớc gì tôi đã nói với cô ta về vụ tai nạn)
+ • She wishes she had know about his problem
+  (Cô ta ước mình được biết về rắc rối của anh)
+  • They wishes they had studied hard
+  (Họ ước mình đã học hành chăm chỉ)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_8">
+    <attribute name="title">
+     <string>Past Prefect Continuous</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_31">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_16">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_17">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_30">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_16">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>QUÁ KHỨ HOÀN THÀNH TIẾP DIỄN
+1.Công thức:
+- Khẳng định: S+ had + been + V-ing + O
+- Phủ định: S+ hadn't + been + V-ing + O
+- Nghi vấn: Had + S + been + V-ing + O?
+2.Cách dùng:
+Diễn tả một hành động xảy ra kéo dài liên tục trước một hành động khác trong quá khứ.
+• He had been typing for 3 hours before he finished his work.
+(Cậu ta đã đánh máy suốt 3 tiếng đồng hổ trước khi hoàn thành xong công việc.)
+- Ta thấy có hai sự việc xảy ra trong quá khứ đó là &quot;đánh máy và &quot;hoàn thành công việc&quot;. Ta có thể hiểu rằng trước đó việc đánh máy đã diễn ra liên tục không ngừng nghỉ cho đến khi công việc được hoàn thành.
+Diễn tả một hành động xảy ra kéo dài liên tục trước một thời điểm xác định trong quá khứ.
+• My father had been driving for 2 hours before 11pm last night.
+ (Bố tôi đã lái xe liên tục 2 tiếng đồng hồ trước thời điểm 11h tối hôm qua)
+- Ta thấy &quot;11h tối hôm qua&quot; là một thời điểm xác định trong quả khứ. Việc &quot;lái xe đã diễn ra một cách liên tục không ngừng nghỉ trước thời điểm đó nên ta sẽ sử dụng thì quả khứ hoàn thành tiếp diễn để diễn đạt.
+Nhấn mạnh hành động để lại kết quả trong quá khứ.
+  • This morning he was very tired because he had been working very hard all night.
+  (Sáng nay anh ấy rất mệt bởi vì anh ấy đã làm việc vất vả cả đêm.)
+  - Ta thấy việc &quot;mệt mỏi đã xảy ra trong quá khứ và là kết quà của việc làm việc vất vả cả đêm'' đã được diễn ra trước đó nên ta sẽ sử dụng thì quá khứ hoàn thành để diễn đạt.
+3. Dấu hiệu nhận biết:
+Từ nhận biết: until then, by the time, prior to that time, before, after.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_9">
+    <attribute name="title">
+     <string>Future Simple</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_33">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_17">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_18">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_32">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_17">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>TƯƠNG LAI ĐƠN
+1.Công thức:
+- Khẳng đnh: S+ shal/will + V (nguyên thể)
+- Phủ định: S+ shall/will + not + V (nguyên thể)
+- Nghi vấn: shall/will +S+V (nguyên thể)
+2.Cách dùng:
+Diễn đạt một quyết định tại thời điểm nói
+• We will see what we can do to help you
+(Chúng tôi sẽ xem để có thể giúp gi cho anh)
+Đưa ra lời yêu cầu. để nghị, lời mời
+• Will you open the door?
+(Anh đóng cửa giúp tôi được không?)
+   - Lời yêu cầu
+• Will you come to lunch?
+(Trưa này cậu tới ăn cơm nhé?)
+   - Lời mời
+Diễn đạt dự đoán không có căn cứ
+• People will not go to Jupiter before 22nd century
+(Con người sẽ không thể tới sao Mộc trước thế kỉ 22)
+
+Shall or Will
+Shall / will đều là các trợ động từ (auxiliary verb) dùng trong thì Tương lai đơn với nghĩa là &quot;sẽ&quot;.
+Trước đây, người ta phân chia:
+Shall for 1st person (ngôi thứ 1)
+	Single :I shal be there soon
+	Plural : We shall be there soon
+Will for 2nd person (ngôi thứ 2) and 3rd person (ngôi thứ 3)
+	Single and plural : You will be there soon
+	Single : He/She/lt will be there soon.
+	Plural : They will be there soon.
+Ngày nay. Shall it đuợc sử dụng hơn, đặc biệt là trong tiếng Anh Mỹ. Người ta sử dụng Will trong mọi chủ ngũ. Tuy nhiên nguyên tác này còn được áp dụng trong các bài thi và bài
+viết mang tính học thuật cao hơn.
+3.Dấu hiệu nhận biết
+Do thì tương lai đơn được dùng để diễn tả một hành động, sự việc xảy ra trong tương lai, nên cách dùng này thường đi với các trạng từ chỉ thời gian như: tomorrow, next day/week/ year/ century.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_10">
+    <attribute name="title">
+     <string>Future Continuous</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_35">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_18">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_19">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_34">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_18">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>TƯƠNG LAI TIẾP DIỄN
+1.Công thức
+- Khẳng định: S+ shal/will + be + V_ing+ O
+- Phủ định: S+ shall/will + NOT+ be + V_ing+ O
+- Nghi vấn: shal/wil +S+ be + V_ing+ O
+2.Cách dùng:
+	Thì tương lai tiếp diễn dùng để diễn tả
+Hành động sẽ diễn ra và kéo dài liên tục suốt một khoảng thời gian ở tương lai
+• My parents are going to London so i be staying with my grandma for the next 2 weeks
+  (Cha mẹ tôi sẽ đ London, vì vậy tôi sê ở với bà trong 2 tuần tới)
+Hành động tương lai đang xảy ra thì một hành động khác xảy đến
+• The band will be playing when the President enters
+  (Ban nhạc sẽ đang chơi khi Tổng thống bước vào)
+Hành động sẽ đang xảy ra vào một thời điểm hoặc một khoảng thời gian cụ thể ở tương lai
+• He will be living in this house in May
+ (Anh ấy sẽ sống ở nhà này tháng 5 tới)
+• This time next week be lying on the beach
+ (Giờ này tuần sau tôi đang nằm trên bãi biển)
+Hành động sẽ xảy ra như một phần trong kế hoạch hoặc một phần trong thời gian biểu
+• The party will be starting at ten o'clock
+  (Bữa tiệc sẽ bắt đầu lúc 10 giờ)
+3. Dấu hiệu nhận biết:
+Từ nhận biết:
+   • In the future, next year, next week, next time, and soon...</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_11">
+    <attribute name="title">
+     <string>Future Perfect</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_37">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_19">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_20">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_36">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_19">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>TƯƠNG LAI HOÀN THÀNH
+1. Công thức:
+- Khẳng định: S+ shall/will + have + Past Participle
+- Phủ định: S+ shall/will + NOT + have + Past Participle
+- Nghi vấn: shall/wil +S+have + Past Participle?
+2. Cách dùng:
+Dùng để diễn tả một hành động hay sự việc hoàn thành trước một thời điểm trong tương lai.
+ - I wil have finished my homework before 9 o'clock this evening
+   (Cho đến trước 9h tối nay tôi sẽ hoàn thành xong bài tập về nhà rồi)
+   -&gt; Ta thấy &quot;9h tối nay&quot; là một thời điểm trong tuơng lai và &quot;việc bài tập về nhà&quot; sẽ được hoàn thành trước thời điểm này nên ta sử dụng thì tương lai hoàn thành.
+Dùng để diễn tả một hành động hay sự việc hoàn thành trước một hành động hay sự việc khác trong tương lai. Hành động, sự việc hoàn thành trước sẽ chia thì tương lai hoàn thành. Hành
+động, sự việc xảy ra sau sẽ chia thì hiện tại đơn.
+ • I will have made the meal ready before the time you come tomorrow
+  (Ngày mai tôi đã chuần bị bữa ăn sẵn sàng trước khi bạn đến ngày mai)
+- Ta thấy có hai sự việc sẽ xảy ra trong tương lai: &quot;chuẩn bị bữa ăn&quot; và &quot;bạn đến&quot;. Việc &quot;chuần bị bữa ăn&quot; sẽ được hoàn thành trước việc &quot;bạn đến&quot; nên ta sử dụng thì tương lai hoàn thành. Việc xày ra sau &quot;bạn đến&quot; sẽ chia thì hiện tại đơn.
+3. Dấu hiệu nhận biết:
+   - by + thời gian trong tương lai
+   - by the end of + thời gian trong tương lai
+   - by the time.
+   - before + thời gian trong tương lai
+       • By the end of this month I will have taken an English course
+       (Cho tới cuối tháng này thì tôi đã tham gia một khóa học Tiếng Anh rồi)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_12">
+    <attribute name="title">
+     <string>Future Perfect Continuous</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_39">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_20">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_21">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_38">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_20">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>TƯƠNG LAI HOÀN THÀNH TIẾP DIỄN
+1. Công thức:
+- Khẳng định: S+ shall/will + have been + V_ing +O
+- Phủ định: S+ shall/will + NOT+ have been + V_ing +O
+- Nghi vấn: shall/will + S+ have been + V_ing + O?
+2. Cách dùng:
+Dùng để diễn tả một hành động xảy ra trong quá khứ tiếp diễn lên tục đến một thời điểm cho trước trong tương lai,
+ • I will have been studying English for 10 year by the end of next month
+   --&gt; Ta thấy việc học tiếng Anh bắt đầu trong quá khứ (trước thời điểm nói) kéo dài liên tục đến cuối tháng tới là được 10 năm. Vậy ta sẽ sử dụng thì tương lai hoàn thành tiếp diễn để
+diễn đạt.
+3. Dấu hiệu nhận biết
+For + khoảng thời gian + by/ before + mốc thời gian trong tương lai
+ • For 2 years by the end of this month
+  (Được 2 năm cho tới cuối tháng này)
+ • For 3 hours by the time she arrives
+  (Được 2 tiếng đồng hồ cho tới lúc cô ấy đến)
+ • For 2 days before the time my parents comes back tomorrow
+  (Được 2 ngày trước lúc bố mẹ tôi quay về vào ngày mai)
+4. Quy tắc thêm &quot;- ING&quot; sau động từ.
+Thông thường ta chỉ cần cộng thêm ing&quot; vào sau động từ.
+Nhưng có một số chú ý như sau:
+   1. Với động từ tận cùng là MỘT chữ &quot;e&quot;: Ta bỏ &quot;e&quot; rồi thêm &quot;ing&quot;.
+      	• write - writing
+      	• type - typing
+      	• come - coming
+     Tận cùng là HAI CHỮ &quot;e&quot; ta không bỏ &quot;e&quot; mà vẫn thêm &quot;-ing&quot; bình thường.
+    2. Với động từ có MỘT âm tiết, tận cùng là MỘT PHỤ ÂM, trước là MỘT NGUYÊN ÂM: Ta nhân đôi phụ âm cuối rồi thêm &quot;-ng&quot;.
+    	• stop - stopping
+      	• get - getting
+     	• put - putting
+Các trường hợp ngoại lệ:
+     	• beggin - beginning
+    	• travel - traveling
+      	• prefer - prefering
+    	• permit - permitting
+     3. Với động từ tận cùng là &quot;ie&quot; 
+Ta đổi &quot;ie&quot; thành y rồi thêm &quot;ing&quot;.
+    	• le - lying
+      	• die - dying
+</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_25">
+    <attribute name="title">
+     <string>Cấu trúc ngữ pháp câu bị động</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_41">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_21">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_22">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_40">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_21">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>CẦU TRÚC NGỮ PHÁP CÂU BỊ ĐỘNG
+   * Cấu trúc ngữ pháp câu bị động:
+- Thì hiện tại đơn (Simple Present):
+	S+ be (am/is/are) + PP + ....
+• He likes chickens.
+   --&gt; Chickens are liked.
+- Thì quá khứ đơn (Past Simple):
+	S+was/were + PP+ ..
+• The storm destroyed the city last night.
+   --&gt; The city was destroyed by the storm last night.
+- Thì hiện tại tiếp diễn (Present Continuous):
+	S+ be (am/is/are) + being + PP + ...
+• He is reading a book.
+  --&gt; A book is being read (by him).
+Thì quá khứ tiếp diễn (Past Continuous):
+	S+was/were + being + PP + ...
+• They were listening to music.
+  --&gt; Music was being listened to (by them).
+- Thì hiện tại hoàn thành (Present Perfect):
+	S+ have/has + been + PP +..
+• They have studied English for two months.
+  --&gt; English has been studied (by them) for two months
+- Thì quá khứ hoàn thành (Past Perfect):
+	S+ had + been + PP + ...
+     • They had done the exercises.
+  --&gt; The exercises had been done (by them).
+- Thì tương lai đơn (Simple Future):
+	S+ will/shall + be + PP + ...
+     • They will cut the grass tomorrow.
+  --&gt; The grass will be cut (by them) tomorrow.
+- Thì tương lai tiếp diễn (Future Continuous):
+	S+ will/shall + be + being + PP + ...
+     • She will be helping you when you come here tomorrow.
+   --&gt; You will be being helped (by her) when you come here
+tomorrow
+- Thì tương lai hoàn thành (Future Perfect):
+	S+ will/shall + have + been + PP + ....
+     • They will have finished the course by the end of this month.
+   --&gt; The course will have been finished by the end of this month
+   * Ngoài ra còn một số những cấu trúc câu bị động thường dùng sau:
+Chủ động: S+ should/could + have + PP +O.
+	Bị động:  S+ should/could + have + been + PP +...
+   • You should have bought this book.
+   --&gt; This book should have been bought.
+Dùng &quot;it&quot; làm chủ ngữ (mệnh để làm tân ngữ vẫn được giữ nguyên)
+  • They said that he is kind to you.
+   --&gt; It is said that he is kind to you.
+Dùng cấu trúc câu bị động với động từ nguyên mẫu:
+Nếu hành động trong mệnh để làm tân ngữ xảy ra trước hành động của mệnh đề chính, chúng ta dùng: perfect infinitive (to have + PP)
+   They said that he had killed the woman.
+   --&gt; He was said to have kiled the woman.
+Nếu hành động trong mệnh để làm tân ngữ xảy ra sau hành động trong mệnh để chính, chúng ta sử dụng: simple infinitive (to + Vo)
+  • They expect that you will come.
+   --&gt; You are expected to come
+Nếu hành động trong mệnh để làm tận ngữ xảy ra đồng thời với hành động trong mệnh để chính, ta dùng: present infinitive (to be + V-ing)
+  • They said that he was doing homework.
+   --&gt; He was said to be doing homework.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_26">
+    <attribute name="title">
+     <string>Trường hợp đặc biệt câu bị động</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_43">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_22">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_23">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_42">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_22">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>BỊ ĐỘNG CỦA ĐỘNG TỪ ĐẶC BIỆT
+1. It's your duty to + V_inf
+- Bị động : You're supposed to + V_inf
+ • It's your duty to make tea today.
+ --&gt; You are supposed to make tea today.
+2. It's impossible to + V_inf
+- Bị động: S+ can't + be + P2
+ • It's impossible to solve this problem.
+ --&gt; This problem can't be solve.
+3.It's necessary to + V_inf
+- Bị động :S+ should/ must + be + P2
+ • It's necessary for you to type this letter.
+ --&gt; This letter should/ must be typed by you
+4. Mệnh lệnh thức + Object.
+- bị động: S+ should/must + be + P2.
+ • Turn on the lights!
+ --&gt; The lights should be turned on.
+
+BỊ ĐỘNG CỦA ĐỘNG TỪ MAKE / LET
+Công thức chủ động : S+ make/ let + sb+ V_inf.
+- Bị động : S+be+ made + to + V_inf/let + V_inf.
+ • My parent never let me do anything by myself.
+ --&gt; I'm never let to do anything by myself.
+
+BỊ ĐỘNG CỦA CẤU TRÚC &quot; NHỜ AI LÀM GÌ&quot;
+Chủ động : S+ have(get) + sb + (to)Vint
+- Bị động : S+ have/ get + st +done.
+ • I have my father repair my bike.
+ --&gt; I have my bike repaired by my father.
+
+BỊ ĐỘNG CỦA ĐỘNG TỪ ĐI SAU NÓ LÀ MỘT ĐỘNG TỪ Ở DẠNG VING
+Các động từ đó như: love, like, dislike, enjoy, fancy, hate, imagine, regret, mind, admit, involve, deny, avoid, etc
+Chủ động: S+V+ sb Ving
+- Bị động: S+V+ sb/st + being + P2
+ • I like you wearing this dress.
+ --&gt; I lke this dress being worm by you.
+
+BỊ ĐỘNG CỦA CÁC ĐỘNG TỪ TRI GIÁC (Vp : verb of perception)
+1. Cấu trúc 1: S + Vp + sb + Ving.
+(Ai đó chứng kiến người khác làm gì và chỉ thấy 1 phân của hành động hoặc 1 hành động đang diễn ra bị 1 hành động khác xen vào)
+   Opening the door, we saw her overhearing us.
+
+2.Cấu trúc 2: S + Vp + sb + V.
+(Ai đó chứng kiến người khác làm gì từ đầu đến cuối)
+  I saw him close the door and drive his car away.
+Chú ý: riêng các động từ: feel, find, catch thì chỉ sử dụng cấu trúc 1.
+Bị động : S+ be + P2(of Vp) + to + V_inf
+(áp dụng cho cả cấu trúc 1 &amp; 2)
+   • We saw her overhearing us.
+    --&gt; She was seen to overhear us. -
+   I saw him close the door and drive his car away.
+    --&gt; He was seen to close the door and drive his car away.
+
+BỊ ĐỘNG KÉP.
+1. Khi main verb ở thời HIỆN TẠI
+Chủ động:
+   People/they + think/say/suppose/believe/consider/repor..+ that + clause.
+- Bị động:
+   It's + thought/said/supposed/believed/considered/reported..+ that + clause
+  (trong đó clause =S+ Vinf +O)
+a) Động từ trong clause ở thì HTD hoặc TLĐ:
+	S+ am/is/are + thought/ said/supposed.. + to + Vinf
+   • People say that he is a good doctor.
+   --&gt; It's said that he is a good doctor.
+   --&gt; He is said to be a good doctor.
+b) Động từ trong clause ở thì QKD hoặc HTHT:
+	S+ am/is/are + thought/ said/ supposed.. + to + have + P2.
+   • People think he stole my car.
+   --&gt; It's thought he stole my car.
+   --&gt; He is thought to have stolen my car.
+2. Khi main verb ở thời QUÁ KHỨ.
+Chủ động:
+   People/they + thought/said/supposed.+ that + clause.
+--&gt; Bị động:
+  It was + thought/ said/ supposed.+ that + clause.
+a) Động từ trong clause ở thì HTD hoặc TLĐ:
+	S+ was/were + thought/ said/ supposed... + to + Vinf.
+    • People said that he is a good doctor.
+    --&gt; It was said that he is a good doctor.
+    --&gt; He was said to be a good doctor.
+b) Động từ trong clause ở thì QKD hoặc HTHT:
+	S+ was/were + thought/said/ supposed... + to + have + P2.
+    • They thought he was one of famous singers.
+    --&gt; It was thought he was one of famous singers.
+    --&gt; He was thought to be one of famous singers.
+
+BỊ ĐỘNG CỦA TÁM ĐỘNG TỪ ĐẶC BIỆT
+Các động từ : suggest, require, request, order, demand, insist(on), recommend.
+Chủ động:
+   S+ suggest/ recommend/ order/ require. + that + clause. (trong đó clause =S+ Vinf + O)
+- Bị động:
+	It + was/ will be/ has been/ is.. + P2( of 8 verb) + that + st + be + P2.
+	(trong đó &quot;be&quot; là không đổi vì động từ trong clause ở câu chủ động ở dạng Vinf)
+     • He suaaested that she buv a new car.
+- It was suggessted that a new car be bought.
+
+BỊ ĐỘNG CỦA CẤU TRÚC CHỦ NGỮ GIẢ &quot; IT&quot;.
+Chủ động:
+	It + be + adj + for sb + to do st.
+--&gt; Bị động:
+	It + be + adj + for st + to be done.
+   • It is difficult for me to finish this test in one hour
+   --&gt; It is difficult for this test to be finished in one hour.
+
+BỊ ĐỘNG TRONG TRƯỜNG HỢP 2 TÂN NGỮ.
+Trong đó:
+Oi = Indirect Object.
+Od = Direct Object.
+Chủ động:
+	S+V + Oi + Od
+- Bị động:
+	Oi + be + P2( of V) + Od. b) Od + be + P2 (of V) + to Oi.
+	    (riêng động từ &quot; buy&quot; dùng giới từ &quot; for&quot;).
+   • My friend gave me a present on my birthday.
+   --&gt; A present was given to me by my friend on my
+birthday.
+  --&gt; I was given a present on my birthday by my friend.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_27">
+    <attribute name="title">
+     <string>Câu ước loại 1</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_45">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_23">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_24">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_44">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_23">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>CÂU ƯỚC LOẠI 1 - TƯƠNG LAI
+Câu ước loại 1: Là câu ước về một điều trong tương lai.
+Câu ước ở tương lai dùng để diễn tả những mong ước về một sự việc trong tương lai. Chúng ta sử dụng câu ước ở tương lai với mong muốn ai đó, sự việc gì đó sẽ tốt đẹp hơn trong tương
+lai.
+Cấu trúc:
+- Khẳng định: S+ wish(es) + S+ would + V(nguyên thể)
+- Phủ định: S+ wish(es) + S+wouldn't + V(nguyên thể)
+- IF ONLY + S+ would/could +V (nguyên thể)
+Ví dụ:
+	• I wish you wouldn't leave your clothes all over the floor.
+	• I wish I would be an astronaut in the future.
+	• If only I would take the trip with you next week.
+	• If only I would be able to attend your wedding next week.
+	• I wish they would stop arguing.
+Chú ý:
+- Đối với chủ ngữ ở vế &quot;wish&quot; là chủ ngữ số nhiều, chúng ta sử dụng wish.
+	• They wish, Many people wish,.
+- Đối với chủ ngữ ở vế &quot;wish&quot; là chủ ngữ số ít, chúng ta sử dụng wishes.
+	• He wishes, the boy wishes
+- Động từ ở mệnh để sau ta chia ở dạng nguyên thể vì đứng trước nó là Modal verbs would/could,</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_28">
+    <attribute name="title">
+     <string>Câu ước loại 2</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_47">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_24">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_25">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_46">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_24">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>CÂU ƯỚC LOẠI 2 - HIỆN TẠI
+Câu ước loại 2: Câu ước về một điều trái với hiện tại.
+Câu ước ở hiện tại dùng để diễn tả những mong ước về một sự việc không có thật ở hiện tại, hay giả định một điều ngược lại so với thực tế.Chúng ta dùng câu ước ở hiện tại để ước về
+điều không có thật ở hiện tại, thường là thể hiện sự nuối tiếc về tình huống hiện tại (regret about present situations).
+Cấu trúc:
+- Khẳng định: S+ wish(es) + S+ V2/-ed +O (to be: were / weren't)
+- Phủ định: S+ wish(es) + S+ didn't + VI
+- = IF ONLY + S+ V (simple past)
+Lưu ý:
+ - Động từ ở mệnh để sau wish luôn được chia ở thì quả khứ đơn.
+ - Động từ BE được sử dụng ở dạng giải định cách, túc là ta chia BE = WERE với tất cả các chủ ngữ.
+Ví dụ:
+	• I wish I were rich.
+	--&gt; But I am poor now.
+	• I can't swim. I wish I could swim.
+	• If only she were here.
+	--&gt; The fact is that she isn't here.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_29">
+    <attribute name="title">
+     <string>Câu ước loại 3</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_49">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_25">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_26">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_48">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_25">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>CÂU ƯỚC LOẠI 3 - QUÁ KHỨ
+Câu ước loại 3: Là câu ước trái với một sự thật trong quá khứ.
+Câu ước ở quá khứ dùng để diễn tả những mong ước về một sự việc không có thật ở quá khứ, hay giả định một điều ngược lại so với thực tại đã xảy ra ở quá khứ. Chúng ta sử dụng câu
+ước ở qúa khứ để ước điều trái với những gì xảy ra trong quá khứ, thường là để diễn tả sự nuối tiếc với tìinh huống ở quá khứ.
+Cấu trúc:
+- Khẳng định: S+ wish(es) + S+had + V3/-ed
+- Phủ định: S+ wish(es) + S+ hadn't + V3/-ed
+- =IF ONLY + S+ V (P2)
+- S+ WISH + S+ COULD HAVE + P2 = IF ONLY+ S+ COULD HAVE + P2
+Động từ ở mệnh để sau wish chia ở thì quá khứ hoàn thành.
+Ví dụ:
+	• If only I had gone by taxi.
+	--&gt; I didn't go by taxdi.
+	• I wish I hadn't falled my exam last year.
+	--&gt; I failed my exam.
+	• He wishes she had had enough money to buy the house.
+	--&gt; She didn't have enough money to buy it.
+	• If only I had met her yesterday.
+	--&gt; I didn't meet her.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_30">
+    <attribute name="title">
+     <string>Cấu trúc câu hỏi đuôi</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_53">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_26">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_28">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_52">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_27">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>CÔNG THỨC CÂU HÒI ĐUÔI
+Câu hỏi đuôi là câu hỏi ngán ở cuối câu trần thuật. Câu hỏi này được dùng khi người nói muốn xác minh thông tin là đúng hay không hoặc khi khuyến khích một sự hồi đáp từ phía người
+nghe. 
+  * Nguyên tắc thành lập câu hỏi đuôi:
+Nếu câu trần thuật là câu khẳng định, câu hỏi đuôi phải ở thể phủ định.
+	• You didn't do your homework, did you?
+Nếu câu trần thuật là câu phủ định, câu hỏi đuôi phải ở thể khẳng định
+	• You're afraid. aren't you?
+Nếu câu trần thuật ở thì hiện tại đơn, câu hỏi đuôi phải dùng trợ động từ do/does
+	• You play the guitar, don't you?
+Nếu câu trần thuật ở thì quá khứ đơn, câu hỏi đuôi phải dùng trợ động từ did
+	• They went to the cinema, didn't they?
+  * Câu trả lời là
+	- Yes nếu đồng ý với câu trần thuật ở trên
+	- No không đồng ý với ý kiến ở câu trân thuật
+Ví dụ:
+  • Your sister is married, isn't she?
+      - Yes, she has just married.
+      - No, of course she isn't.
+
+  * Chú ý:
+Để hiểu hơn về các loại câu hỏi đuôi, chúng ta cùng xem xét các ví dụ sau:
+Câu hỏi đuôi khẳng dịnh
+- Câu trần thuật phủ định + câu hỏi đuôi khẳng định
+ • You aren't a teacher, are you?
+ • He isn't crazy, is he?
+ • They weren't late, were they?
+ • You don't speak French, do you?
+ • You haven't been here all week, have you?
+ • You won't fail the exam, will you?
+ • She can't drive a car, can she?
+ • We mustn't say anything, must we?
+Câu hỏi đuôi phủ định
+- Câu trần thuật khång định + câu hỏi đuôi phủ định
+ • You are a student, aren't you?
+ • He is very busy, isn't he?
+ • They were surprised, weren't they?</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_31">
+    <attribute name="title">
+     <string>Dạng đặc biệt câu hỏi đuôi</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_55">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_27">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_29">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_54">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_28">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>DẠNG ĐẶC BIỆT CỦA CÂU HỎI ĐUÔI
+ * Dạng đặc biệt của câu hỏi đuôi
+Câu giới thiệu dùng &quot;I am&quot;, câu hỏi đuôi là &quot;aren't I&quot;
+	• I ma student, aren't I?
+Câu giới thiệu dùng Let's, câu hỏi đuôi là &quot;Shall we&quot;
+	• Let's go for a picnic, shall we?
+Chủ ngữ là những đại từ bất định &quot;Everyone, someone, anyone, no one, nobody...&quot; câu hỏi đuôi là &quot;they&quot;
+	• Somebody wanted a drink, didn't they?
+	• Nobody phoned, did they?
+Chủ ngữ là &quot;nothing&quot; thì câu hỏi đuôi dùng &quot;it&quot;. Và Nothing là chủ ngữ có nghĩa là mệnh để giới thiệu đang ở dạng phủ định, câu hỏi đuôi sẽ ở dạng khẳng định.
+	• Nothing can happen, can it?
+Trong câu có các trạng từ phủ định và bán phủ định như: never, seldom, hardly, scarely, little. thi câu đó được xem như là câu phủ định - phần hỏi đuôi sẽ ở dạng khẳng định
+	• He seldom drinks wine, does he?
+Câu đầu có It seems that + mệnh để, lấy mệnh để làm câu hỏi
+	• It seems that you are right, aren't you ?
+Chủ từ là mệnh để danh từ, dùng &quot;it&quot; trong câu hỏi đuôi
+	• What you have said is wrong, isn't it ?
+Sau câu mệnh lệnh cách (Do.../Don't do v.v... ), câu hỏi đuôi thường là ... will you?:
+  	• Open the door, will you?
+  	• Don't be late, will you?
+Câu đầu là I WISH, dùng MAY trong câu hỏi đuôi
+	• I wish to study English, may I?
+Chủ từ là ONE, dùng you hoặc one trong câu hỏi đuôi
+ 	• One can be one's master, can't you/one?
+Câu đầu có MUST, must có nhiều cách dùng cho nên tùy theo cách dùng mà sẽ có câu hỏi đuôi khác nhau Must chỉ sự cần thiết: =&gt; dùng needn't
+ 	• They must study hard, needn't they?
+Must chỉ sự cấm đoán: =&gt; dùng must
+ 	• You mustn't come late, must you ?
+Must chỉ sự dự đoán ở hiện tại: =&gt; dựa vào động từ theo sau must
+ 	• He must be a very intelligent student, isn't he?
+Must chỉ sự dự đoán ở quá khứ (trong công thức must + have + p.p): =&gt; dùng là have/has
+  	• You must have stolen my bike, haven't you?
+Câu cảm thán, lấy danh từ trong câu đổi thành đại từ, dùng is, am, are
+  	• What a beautiful dress, isn't it?
+  	• How intelligent you are, aren't you?
+Câu đầu có I + các động từ sau: think, believe, suppose, figure, assume, fancy, imagine, reckon, expect, seem, feel + mệnh để phụ, lấy mệnh để phụ làm câu hỏi đuôi.
+ 	• I think he will come here, won't he?
+	• I don't believe Mary can do it, can she?
+Lưu ý:
+  - Mệnh để chính có not thì vẫn tính như ở MĐ phụ
+  - Cùng mẫu này nhưng nếu chủ từ không phải là I thì lại dùng mệnh để đầu làm câu hỏi đuôi.
+    	• She thinks he will come, doesn't she?
+USED TO: từng (diễn tả thói quen, hành động thường lặp đi lặp lại trong quá khứ).
+Trưởng hợp này. ta cứ việc xem USED TO là một động từ chia ở thì quá khứ. Do đó, câu hỏi đuôi tương ứng chỉ cần mượn trợ động từ DID
+  	 • She used to live here, didn't she?
+Had better: &quot;had better thường được viết ngăn gọn thành D BETTER, nên dễ khiến ta lúng túng khi phải lập câu hỏi đuôi tương ứng.
+Khi thấy D BETTER, chỉ cản mượn trợ động từ HAD để lộp câu hỏi đuôi.
+   	• He'd better stay, hadn't he?
+WOULD RATHER: Would rather thường được viết gọn là D RATHER nên cũng dễ gây lúng túng cho bạn.
+Chỉ cần mượn trợ động từ WOULD cho trường hợp này để lập câu hỏi đuôi.
+    	• You'd rather go, wouldn't you?</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_32">
+    <attribute name="title">
+     <string>Câu điều kiện loại 1</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_57">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_28">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_30">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_56">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_29">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>CÂU ĐIỀU KIỆN LOẠI 1
+1. Công thức
+- If +S+ V, S+ will + V
+2. Cách dùng
+Chỉ một sự thật hiển nhiên, một quy luật tự nhiên hoặc một hành động xảy ra thường xuyên
+	• If you heat ice, it turns to water.
+     (Nếu bạn đun nóng nước đá nó sẽ tan thành nước)
+	• If you press this switch, the computer comes on.
+     (Nếu bạn nhấn vào nút này, máy tính sẽ bột)
+Đặt ra một điều kiện có thể thực hiện được trong hiện tại hoặc tương lai
+	• If you come into my garden, my dog will bite you.
+     (Nếu anh bước vào vườn của tôi, con chó của tôi sẽ cắn anh.)
+	• If it is sunny, I will go fishing.
+      (Nếu trời nắng tốt, tôi sẽ đi câu cá.)
+Ngoài ra, các động từ hình thái như can, may, might, should, ought to, must có thể được dùng trong mệnh để chính để nói đến khả năng, sự chắc chắn, sự cho phép, sự bắt buộc hoặc
+cần thiết
+	• If you need a ticket, I can get you one
+       (Nếu bạn cần vé, tôi có thể mua cho bạn một cái)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_33">
+    <attribute name="title">
+     <string>Câu điều kiện loại 2</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_59">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_29">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_31">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_58">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_30">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>CÂU ĐIỀU KIỆN LOẠI 2
+1. Công thức
+- If +S+ Ved, S+ would + V
+Note
+- Trong câu điều kiện loại II, ở mệnh để &quot;if&quot; riêng động từ &quot;to be&quot; luôn dùng &quot;were&quot; cho tất cả các ngôi.
+	• If Nick were rich, he would have a plane.
+       (Nếu Nick giàu, anh ta có thể mua một cái máy bay)
+2. Cách dùng
+Diễn tả điều không thể xảy ra ở hiện tại hoặc tương lai, chỉ là một giả thiết, một ước muốn trái ngược với thực trạng hiện tại
+	• If I were a bird, I would be very happy.
+        (Nếu tôi là một con chim, tôi sẽ rất hạnh phúc.)
+        --&gt; Tôi không thể là con chim được
+	• If I had a million USD, I would buy that car.
+        (Nếu tôi có một triệu đô la, tôi sẽ mua chiếc xe đó.)
+         --&gt; Hiện tại tôi không có
+&quot;could&quot; và &quot;might&quot; có thể được dùng trong mệnh để chính để nói đến khả năng có thể xảy ra
+	• If she had a camera, she could take some photos.
+         (Giá như có máy ảnh, cô ấy có thể chụp vài tấm hình)
+	• If he worked harder, he might do even better at her studies.
+          (Giá như anh ta hỌc chăm hơn thì kết quả học tập có thể còn tốt hơn nữa)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_34">
+    <attribute name="title">
+     <string>Câu điều kiện loại 3</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_61">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_30">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_32">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_60">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_31">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>CÂU ĐIỀU KIỆN LOẠI 3
+1. Công thức
+- If +S+had + V(Past Participle), S+ would + have + V(Past Participle)
+
+2. Cách dùng
+Diễn tả một điều không thể xảy ra trong quá khứ, chỉ mang tính ước muốn trong quá khứ, một sự hối tiếc, một giả thiết trái ngược với thực trạng ở quá khứ.
+	• If I hadn't been absent yesterday, I would have met him.
+          (Nếu hôm qua tôi không vắng mặt thì tôi đă gặp mặt anh ta rồi.)
+	• If I had known of your arrival, I would have met you.
+          (Giá mà tôi biết anh đến thì tôi đã đi đón rồi)
+
+&quot;could&quot; và &quot;might&quot; có thể được dùng trong mệnh để chính để nói đến khả năng có thể xảy ra
+	• If she had a camera, she could take some photos.
+          (Giá như có máy ảnh, cô ấy có thể chụp vài tấm hình)
+	• If he worked harder, he might do even better at her studies.
+          (Giá như anh ta học chăm hơn thì kết quả học tập có thể còn tốt hơn nữa)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_35">
+    <attribute name="title">
+     <string>Đảo ngữ câu điều kiện</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_84">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_31">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_33">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_62">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_32">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>ĐÀO NGỮ CỦA CÂU ĐIỀU KIỆN
+1. Đảo ngữ câu điểu kiện loại I:
+Công thức :
+- Should + S1 + (not)+ V (hiện tại), S2 + will/may/might/should/can... + V(infinitive)
+Nếu trong câu có &quot;should&quot; ở mệnh để if, thì đảo &quot;should&quot; lên đầu câu:
+	• If he should ring, I will tell him the news.
+	--&gt; Should he ring, I will tell him the news.
+Nếu trong câu không có &quot;should&quot;, chúng ta phải mượn &quot;should&quot;
+	• If he has free time, he'll play tennis.
+	--&gt; Should he have free time, he'l play tennis.
+2. Đảo ngữ câu điều kiện loại II:
+Công thức:
+- Were + S1 + (not) + O, S2 + would/might/could... + V(infinitive)
+Nếu trong câu có động từ &quot;were&quot;, thì đảo &quot;were&quot; lên đầu.
+	• If I were a bird, I would fly.
+	--&gt; Were la bird, I would fly.
+Nếu trong câu không có động từ &quot;were&quot; thi mượn &quot;were&quot; và dùng &quot;to V&quot;
+	• If I learnt Russian. I would read a Russian book.
+	--&gt; Were I to learn Russian, I would read a Russian book.
+3. Đảo ngữ câu điều kiện loại II:
+Công thức
+  - Had + S1 + (not) + past participle, S2 + would/might/could + have + past participle
+Đảo trợ động từ của thì quá khứ hoàn thành.
+  	• If it had rained yesterday, we would have stayed at home.
+  	--&gt; Had it rained yesterday, we would have stayed at home.
+  	• If he had trained hard, he would have won the match.
+ 	--&gt; Had he trained hard, he would have won the match.
+Chú ý:
+- Ở dạng phủ định, &quot;not&quot; dược đặt sau chủ ngữ:
+      • Had it not been so late, we would have called you.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_36">
+    <attribute name="title">
+     <string>Dạng đặc biệt của câu điều kiện</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_64">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_32">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_34">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_63">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_33">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>DẠNG ĐẶC BIỆT CỦA CÂU ĐIỀU KIỆN
+
+1. Câu điều kiện hỗn hợp:
+Câu điều kiện hỗn hợp là câu điều kiện kết hợp giữa câu điều kiện loại 3 và câu điều kiện loại 2. --&gt; Dùng để diễn đạt giả định về một điều &quot;trái với sự thật trong quá khứ, nhưng kết quả
+muốn nói đến trái ngược với sự thật ở hiện tại.
+Cấu trúc:
+	- S+ had + V(PI). S + would/should + V(nguyên thể)
+Ta thấy mệnh để chứa &quot;if&quot; hay còn gọi là &quot;mệnh để giả định&quot; sử dụng cấu trúc của câu điều kiện loại II (động từ chia thì quá khứ hoàn thành), còn mệnh đề chính sử dụng cấu trúc của
+câu điều kiện loại I (would/should+ V(nguyên thể)).
+	• If he had told me the reason yesterday, I wouldn't be sad now.
+       (Nếu hôm qua anh ấy nói với tôi lý do thì bày giờ tôi sẽ không buồn như vậy.)
+       --&gt; Sự thật là hôm qua anh ấy đã không nói với tôi lý do, và bây giờ tôi cảm thấy rất buồn.
+  Ta thấy mệnh để &quot;If&quot; đưa ra một giả định trái với sự thật trong quá khứ (hôm qua), và mệnh để chính đưa ra giả định về kết quả trái với sự thật ở hiện tại (bây giờ).
+
+2. Câu điều kiện với UNLESS:    Unless (trừ khi) = if not
+	• If she doesn't study hard, she will get bad marks.
+        (Nếu cô ấy không học hành chăm chỉ, cô ấy sẽ bị điểm kém.)
+	• Unless she studies hard, she will get bad marks.
+        (Trừ khi cô ấy học hành chăm chỉ, nếu không cô ấy sẽ bị điểm kém.)
+CHÚ Ý:
+Ta chỉ sử dụng &quot;unless&quot; trong câu điều kiện loại I (giả định một việc có thể xảy ra ở hiện tại và tương lai)
+- Không sử dụng &quot;unless&quot; trong câu điều kiện loại II và loại III.
+- Không sử dụng &quot;unless&quot; trong câu hỏi.
+Ta có thể sử dụng:
+	• What will you do if he doesn't come?
+               (Bạn sẽ làm gì nếu anh ấy không đến?)
+Nhưng ta KHÔNG sử dụng:
+	• What will you do unless he comes?</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_37">
+    <attribute name="title">
+     <string>So sánh bằng</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_66">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_33">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_35">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_65">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_34">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>SO SÁNH BẰNG
+
+I. So sánh bằng (Equality)
+    1. Cấu trúc as....as
+Khẳng định (positive): S+ V +as + adj/adv + as + N/pronoun
+Phủ định (negative): S+ V + not + so/as + adj/adv + N/Pronoun
+Note:
+- Sau &quot;as&quot; thứ hai nhất thiết phải là đại từ nhân xưng chủ ngữ, không được là tân ngữ
+- Danh từ cũng có thể dùng so sánh trong trường hợp này nhưng đảm bảo danh từ đó phải có tính từ tương đương.
+- Nếu là câu phủ định, &quot;as&quot; thứ nhất có thể thay bằng &quot;so&quot; 
+- Danh từ cũng được dùng để so sánh, nhưng trước khi so sánh thì cần xác định danh từ đó là đếm được hay là không đếm được và sử dụng công thức so sánh sau:
+          S+V+ as + many/much/little/few + noun + as + noun/pronoun
+		• Bin is as tall as Bon
+		• Bin is not so tall as Bon
+		• Johh earns as much money as his wife
+		• This flat isn't as/ so big as our old one.
+2. Cấu trúc the same..as
+	S+V + the same + (noun) + as + noun/ pronoun
+Note:
+- Trái nghĩa với &quot; the same..as.&quot; là &quot;different from...&quot;, không dùng &quot;different than..&quot;
+- Nếu chủ ngữ sau as trùng với chủ ngữ thứ nhất hoặc động từ sau as ở dạng bị động thì có thể loại bỏ danh từ đó
+      	• Your house is the same height as mine
+      	• Your house is different from mine
+
+II. So sánh bội số
+So sánh bội số là so sánh: bằng nửa (half), gấp đôi (twice), gấp ba (three times)...
+Không được sử dụng so sánh hơn kém mà sử dụng so sánh bằng, khi so sánh phải xác định danh từ là đếm được hay không đếm được, vì đằng trước chúng có many/much
+	• This encyclopedy costs twice as much as the other one.
+	• Jerome has haif as many records now as I had last year.
+  	• At the clambake last week, Fred ate three times as many oysters as Bob.
+Các lối nói: twice that many/twice that much = gấp đôi ngần ấy... chỉ được dùng trong khẩu ngữ, không được dùng trong văn viết.
+	• We have expected 80 people at that rally, but twice that many showned up. (twice as many as that number).</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_38">
+    <attribute name="title">
+     <string>So sánh hơn</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_68">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_34">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_36">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_67">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_35">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>SO SÁNH HƠN
+
+I. So sánh hơn kém
+So sánh hơn, kém thường được dùng khi so sánh 2 chủ thể với nhau, không mang tính tuyệt đối
+1. So sánh kém
+	S+V + less + adj/adv + than + noun/ pronoun
+		• Nga is less young than I
+		• My brother runs less fast than I
+2. So sánh hơn với tính từ và phó từ ngắn
+	S+V+adj/adv_er+ than +noun/ pronoun
+		• Nga is younger than I
+		• My brother runs faster than I
+3. So sánh hơn với tính từ và phó từ dài
+	S+V + more + adi/adv + than + noun/ pronoun
+		• Nga's dress is more beautiul than mine
+		• She cook more delicious than I do
+Note:
+- Sau THAN phải là đại từ nhân xưng chủ ngữ, không được là tân ngữ
+-Cũng tương tự như so sánh bằng, danh từ cũng được dùng để so sánh, nhưng trước khi so sánh cần xác định truớc danh từ đó là đếm được hay không đếm đuợc và dùng với công thức sau:
+	S+V+ more/fewer/less + noun + than + noun/pronoun
+- Nếu chủ ngữ sau THAN trùng với chủ ngữ thứ nhất, đặc biệt khi động tử sau THAN ở dạng bị động thì có thể loại bỏ danh từ đó
+    	• February has fewer day than March
+  	• He worries more than was good for him
+   	--&gt; Incorrect: than it/what is good for him
+
+II. So sánh hơn kém không dùng than (giữa 2 đối tượng)
+Khi so sánh hơn kém giữa 2 người hoặc 2 vật mà không dùng than, muốn nói đối tượng nào đó là tốt hơn, giỏi hơn, đẹp hơn... thì trước adj và adv so sánh phải có the.
+Chú ý:
+- Phân biệt trường hợp này với trường hợp so sánh bậc nhất dưới đây (khi có 3 đối tượng trở lên). Trong câu thường có cụm từ of the two + noun, nó có thể đứng đầu hoặc cuối câu.
+     	• Harvey is the smarter of the two boys.
+    	• Of the two shirts. this one is the prettier.
+     	• Pealse give me the smailer of the two cakes.
+       	• Of the two books, this one is the more interesting.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_40">
+    <attribute name="title">
+     <string>So sánh nhất</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_72">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_36">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_38">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_71">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_37">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>SO SÁNH NHẤT
+Dùng trong các trường hợp so sánh 3 trở lên
+1. Tính từ và phó từ ngắn
+	S+V + the adj/adv_est + noun/ pronoun
+		• Nam is the tallest in my class
+		• Hoa speaks English the best in my club
+2. Tính từ và phó từ dài
+	S+V + the most ad/adv + noun/ pronoun
+		• This jacket is the most expensive in our shop
+		• She look the most beautiful in my school
+Note:
+- Dùng in với danh từ số it
+- Dùng of với danh từ số nhiều
+	• This dress is the most beautiful of the dresses
+3. So sánh bậc nhất (từ 3 đối tượng trở lên)
+Dùng khi so sánh 3 người hoặc 3 vật trở lên, một trong số đó là uu việt nhất so với các đối tượng còn lại về một mặt nào đó. Để biến tính từ và phó từ thành dạng so sánh bậc nhất, áp dụng quy tác sau:
+- Đối với tính từ và phó từ ngán: thêm đuôi -est.
+- Đối với tính từ và phó từ dài: dùng most hoặc least.
+- Trước tính từ hoặc phó từ so sánh phải có the.
+- Dùng giới từ in với danh từ số ít đếm được.
+- Dùng giới từ of với danh từ số nhiều đếm được.
+	• John is the tallest boy in the family.
+	• Deana is the shortest of the three sisters.
+	• These shoes are the least expensive of all.
+ 	• Of the three shirts, this one is the prettiest.
+Sau cụm từ One of the + so sánh bậc nhất + noun phải đảm bảo chắc chắn rång noun phải là số nhiều, và động từ phải chia ở số ít.
+	• One of the greatest tennis players in the world is Johnson.
+	• Kuwait is one of the biggest oil producers in the world.
+Các phó từ thường không có các hậu tố -er hoặc -est. Chúng được chuyển sang dạng so sánh tương đối bằng cách thêm more hoặc less; sang dạng so sánh tuyệt đối bằng cách thêm most hoặc least phía trước chúng.
+	• Sal drove more cautiously than Bob.
+	• Joe dances more gracefully than his partner.
+	• That child behaves most carelessly of all.
+Một số các tính từ hoặc phó từ mang tính tuyệt đối thì không được dùng so sánh bậc nhất, hạn chế dùng so sánh hơn kém nếu buộc phải dùng thì bỏ more, chúng gồm: unique/extreme/ perfect/ supreme/ top/ absolute/prime/ primary
+	• His drawings are perfect than mine.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_39">
+    <attribute name="title">
+     <string>So sánh kép</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_70">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_35">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_37">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_69">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_36">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>SO SÁNH KÉP
+Cùng một tính từ:
+- Tính từ/Trạng từ ngắn: S+ V+ ad/adv + er + and + adj/adv + er
+- Tính từ/Trạng từ dài: S+ V + more and more + adj/adv
+	• The weather gets colder and colder. (Tính từ ngán)
+           (Thời tiết càng ngày càng lạnh.)
+	• His daughter becomes more and more intelligent. (Tính từ dài)
+           (Con gái anh ấy ngày càng trở nên thông minh.)
+2 tính từ khác nhau:
+The + comparative +S+V (The + comparative : The + từ ở dạng so sánh hơn)
+	• The richer she is the more selfish she becomes.
+	(Càng giàu,cô ấy càng trở nên ích kỷ hơn.)
+	• The more intelligent he is the lazier he becomes.
+	(Càng thông minh,anh ta càng trở nên lười hơn.)
+Dạng khác: (càng.. càng...)
+	The +S+ V + the + comparative + S+ V
+	• The more we study the more stupid we feel.
+	(Chúng ta càng học thì chúng ta càng thấy mình chậm hiểu.)
+Lưu ý:
+- Trong câu so sánh kép, nếu túc từ là một danh từ thì ta đặt danh từ ấy ngay sau tính từ so sánh.
+	• The more English vocabulary we know the better we</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_41">
+    <attribute name="title">
+     <string>So sánh gấp nhiều lần</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_74">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_37">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_39">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_73">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_38">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>SO SÁNH GẤP NHIỀU LẦN
+
+1. Công thức:
+-S+V + multiple numbers * + as + much/many/adj/adv + (N) + as + N/pronoun.
+* là những số như half, twice, 3, 4,5 times; Phân số; Phần trăm.
+
+2. Ví dụ:
+	• She types twice as fast as I.
+       (Cô ấy đánh máy nhanh gấp hai lần tôi đánh máy.)
+	• In many countries in the world with the same job, women only get 40%-50% as much as salary as men.
+       (Ở nhiều quốc gia phụ nữ chỉ nhận được lương bằng với 40-50% lương của người đàn ông khi họ có cùng một công việc.)
+	• This encyclopedia costs twice as much as the other one.
+        (Bộ sách bách khoa toàn thư này mác gấp đôi bộ còn lại.)
+	• At the clambake last week, Fred ate three times as many oysters as Barney.
+        (Trong buổi tiệc tuản trước, Fred ăn hàu nhiều gấp 3 lần Barney.)
+
+3. Lưu ý:
+- Khi dùng so sánh loại này phải xác định rõ danh từ đó là đếm được hay không đếm được vì đằng trước chúng có much và many
+- Các cấu trúc twice that + much/many+.. chỉ được dùng trong văn nói, tuyệt đối không được dùng trong văn viết.
+	• We had expected eighty people at the rally, but twice that many showed up. (văn nói)
+	• We had expected eighty people at the rally. but twice as many as that number showed up. (văn viết)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_42">
+    <attribute name="title">
+     <string>Bảng so sánh</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_76">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_38">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_40">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_75">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_39">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>BẢNG SO SÁNH TÍNH TỪ, TRẠNG TỪ BẤT QUY TẮC
+
+Adj	   	|	So sánh hơn 	| 	So sánh nhất
+---------------------------------------------------------------------------------------
+good / well 	| 	better                       | 	best
+bad 	   	|	worse                      | 	worst
+little (amount)	|	less                     	| 	least
+little (size)	| 	smaller		|	smallest
+much / many           	|	more        	|	most
+far (place + time)	|               further     		| 	furthest
+far (place)        	| 	farther             	| 	farthest
+late (time)            	| 	later                    	| 	latest
+near (place)	| 	nearer                     	|	nearest
+old (people and ths)| 	older/elder             	| 	oldest/eldest
+
+ * IN or OF trong hình thức so sánh nhất:
+- IN được dùng với danh từ đếm được số ít để chỉ một nơi chốn (vd: city, building, country, .), một tổ chức hoặc nhóm người (class, team, family, ..)
+	• Who's the best player in the team?
+	(Ai là cầu thủ chơi hay nhất đội?)
+- OF được dùng để chỉ khoảng thời gian hoặc dùng trước danh từ đếm được số nhiêu chỉ một số lượng xác định người hoặc vật.
+	• She is the most beautiful of the three sisters.
+	(Cô ấy xinh nhất trong ba chị em.)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_43">
+    <attribute name="title">
+     <string>Các dạng so sánh tính từ và phó từ</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_78">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_39">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_41">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_77">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_40">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>CÁC DẠNG SO SÁNH CỦA TỈNH TỪ VÀ PHÓ TỪ
+1. So sánh ngang bằng
+Cấu trúc sử dụng là as ... as
+	S+V+ as + (adj/ adv) + as + (noun/ pronoun}
+Ví dụ:
+• My book is as interesting as yours.
+• His car runs as fast as a race car.
+• John sings as well as his sister.
+• Their house is as big as that one.
+• His job is not as difficult as mine.
+• They are as lucky as we.
+Nếu là câu phủ định. as thứ nhất có thể thay bằng so.
+• He is not as tall as his father.
+• He is not so tall as his father.
+Sau as phải là một đại từ nhân xưng chủ ngữ, không được là một đại từ tân ngữ.
+• Peter is as tall as I. (ĐÚNG)
+• Peter is as tall as me. (SAI)
+Danh từ cũng có thể được dùng để so sánh, nhưng nên nhớ trước khi so sánh phải đảm bảo rằng danh từ đó phải có các tính từ tương đương.
+
+	Adjectives 	|	nouns
+-------------------------------------------------------------------------
+	heavy, light	| 	weight
+	wide, narrow	| 	width
+	deep, shallow	| 	depth
+	long, short	| 	length
+	big, small		| 	size
+
+Khi so sánh bằng danh từ, sử dụng cấu trúc sau:
+  	S+V + the same + (noun) + as + {noun/ pronoun)
+Ví dụ:
+  	• My house is as high as his.
+    	• My house is the same height as his.
+Chú ý:
+  - Ngược nghĩa với the same..as là different from.
+  - Không bao giờ dùng different than.
+Sau đây là một số ví dụ khác về so sánh bằng danh từ.
+  	• These trees are the same as those.
+  	• He speaks the same language as she.
+  	• Her address is the same as Rita's.
+   	• Their teacher is different from ours.
+
+2. So sánh hơn kém
+Trong loại so sánh này người ta chia làm hai dạng: tính từ và phó từ ngắn (chỉ có một hoặc hai âm tiết khi phát âm) và tính từ, phó từ dài (3 âm tiết trở lên). Khi so sánh không ngang bằng:
+  - Đối với tính từ và phó từ ngắn chỉ cản cộng đuôi -er. (thick - thicker; cold-colder; quiet-quieter)
+  - Đối với tính từ ngắn có một phụ âm tận cùng (trừ w,x.z) và trước đó là một nguyên âm, phải gấp đôi phụ âm cuối. (big- bigger: red-redder: hot-hotter)
+  - Đối Với tính từ, phó từ dài, thêm more hoặc less trước tính từ hoặc phó từ đó (more beautiful; more important; more believable).
+  - Đối với tính từ tận cùng là phụ âm+y, phải đổi y thành -ier (happy-happier; dry-drier; pretty-prettier).
+  - Đối với các tính từ có hậu tố -ed, -ful, -ing, -ish, -ous cũng biến đổi bằng cách thêm more cho dù chúng là tính từ dài hay ngắn (more useful, more boring, more cautious)
+  - Trường hợp đặc biệt: strong-stronger; friendly - friendlier than = more friendly than.
+  - Chú ý khi đã dùng more thì không dùng hậu tố - er và ngược lại. Các ví dụ sau là SAI: more prettier, more faster, more better
+
+	S+V+ (short adjective + er / short adverb + er* / more + long adjective,adverb / less + adjective,adverb) + than + {noun/pronoun)
+Chú ý:
+1. Chi một số phó từ là có đuôi -er, bao gồm: faster, quicker, sooner, latter.
+2. Nhớ dùng dạng thức chủ ngữ của đại từ sau than, không được dùng dạng tân ngữ.
+Ví dụ về so sánh không ngang bằng:
+ 	• John's grades are higher than his sister's.
+ 	• Today is hotter than yesterday.
+ 	• This chair is more comfortable than the other.
+ 	• He speaks Spanish more fluently than I. (không dùng than me)
+ 	• He visits his family less frequently than she does.
+ 	• This year's exhibit is less impressive than last year's.
+So sánh không ngang bằng có thể được nhấn mạnh bằng cách thêm much hoặc far trước cụm từ so sánh.
+ 	S+V + {far/much) + adjective + er + than +{noun/pronoun}
+  	• A waterlemon is much sweeter than a a lemon.
+  	• His car is far better than yours.
+	S+V + {far/much) + more + (adjective/adverb) + than + {noun/pronoun}
+	• Henry's watch is far more expensive than mine.
+	• That movie we saw last night was much more interesting than the one on TV.
+	• She dances much more artistically than her predecessor.
+	• He speaks English much more rapidly than he does Spanish.
+
+Danh từ cũng được dùng để diễn đạt phép so sánh ngang bằng hoặc hơn/kém. Chú ý dùng tính từ bổ nghĩa đúng với danh từ đếm được hoặc không đếm được.
+	S+V+ as + (many/much/little/few) + noun + as + {noun/pronoun}
+	• He earns as much money as his brother.
+	• They have as few classes as we.
+	 • Before payday, I have as little money as my brother.
+	S+ V + {more/fewer/less) + noun + than + (noun/pronoun)
+	• February has fewer days than March.
+	• Their job allows them less fredom than ours does.
+Khi so sánh một người/ một vật với tất cả những người hoặc vật khác phải thêm else sau anything/anybody..
+	• He is smarter than anybody else in the class.
+Lưu ý:
+  - Đằng sau as và than của các mệnh để so sánh có thể loại bỏ chủ ngữ nếu nó trùng hợp với chủ ngữ thứ nhất, đặc biệt là khi động từ sau than và as ở dạng bị động. Lúc này than và as còn có thêm chức năng của một đại từ quan hệ thay thế.
+    	• Their marriage was as stormy as had been expected
+    	--&gt; Incorrect: as it had been expected.
+    	• He worries more than was good for him.
+    	--&gt; Incorrect: than it/what was good for him.
+ - Các tân ngữ cũng có thể bị loại bỏ sau các động từ ở mệnh để sau THAN và AS:
+     	• Don't lose your passport, as I did last year.
+    	--&gt; Incorrect: as I did it last year
+    	• They sent more than I had ordered.
+    	--&gt; Incorrect: than I had ordered it
+    	• She gets her meat from the same butcher as I go to.
+    	--&gt; Incorrect: as I go to him
+3. Phép so sánh không hợp lý
+Khi dùng câu so sánh nên nhớ các đối tượng dùng để so sánh phải tương đương nhau: người với người, vật với vật. Các lỗi thường mác phải khi sử dụng câu so sánh không hợp lý được
+chia làm 3 loại: sở hữu cách, that of và those of.
+
+Sở hữu cách:
+ 	• His drawings are as perfect as his instructor.
+ 	--&gt; Incorrect: Câu này so sánh các bức tranh với người chỉ dẫn
+ 	• His drawings are as perfect as his instructor's.
+ 	--&gt; Correct. Instructor's= instructor's drawings
+
+Dùng thêm that of cho danh từ số ít:
+ 	• The salary of a professor is higher thana secretary.
+  	--&gt; Incorrect: Câu này so sánh salary với secretary
+ 	• The salary of a professor is higher than that of a secretary.
+ 	--&gt; Correct: that of = the salary of
+
+Dùng thêm those of cho các danh từ số nhiều:
+ 	• The duties of a policeman are more dangerous than a teacher.
+ 	--&gt; Incorrect: Câu này so sánh duties với teacher
+ 	• The duties of a policeman are more dangerous than thoseof a teacher
+ 	--&gt; Correct: those of = the duties of
+
+4. Các tính từ và phó từ đặc biệt
+Một số ít tính từ và phó từ có dạng thức so sánh đặc biệt. Chúng không theo các quy tắc nêu trên. Nghiên cứu bảng ở phần học trước
+
+Ví dụ:
+ 	• I feel much better today than I did last week.
+   	• He has less time now than he had before.
+  	• This magainze is better than that one.
+
+Lưu ý:
+  - farther dùng cho khoảng cách
+  - further dùng cho thông tin hoặc các trường hợp trừu tượng khác.
+	• The distance from your house to school is farther than that of mine.
+	• If you want further information, please call to the agent.
+  	• Next year he will come to the U.S for his further education.
+
+5. So sánh kép
+Là loại so sánh với cấu trúc: Càng... càng..
+Các Adj/Adv so sánh phải đứng ở đầu câu, trước chúng phải có The. Dùng một trong hai mẫu câu sau đây để so sánh kép:
+ 	 The + comparative +S+ V + the + comparative +S+ V
+    	• The hotter it is. the more miserable l feel.
+   	(Trời càng nóng, tôi càng thấy khó chịu)
+    	• The sooner you take your medicince, the better you willfeel.
+    	(Anh càng uống thuốc sớm bao nhiêu, anh càng cảm thấy dễ chịu bấy nhiêu)
+    	• The bigger they are, the faster they fall.
+    	(Chúng càng to bao nhiêu thì càng rơi nhanh bấy nhiêu)
+  	 The more + S+ V + the + comparative +S+ V
+    	• The more you study, the smarter you will become.
+    	(Càng học, anh càng thông minh hơn)
+    	• The more I look into your eyes, the more I love you.
+    	(Càng nhìn vào mát em, anh càng yêu em hơn)
+Sau The more ở vế thứ nhất có thể thêm that nhưng không mẫu câu này không phổ biến.
+  	• The more (that) you study, the smarter you will become.
+
+6. Cấu trúc No sooner... than (Vừa mới ... thì đã.)
+Chỉ dùng cho thời quá khứ và thời hiện tại, không dùng cho thời tương lai. No sooner đứng ở đảu một mệnh để, theo sau nó là một trợ động từ đảo lên trước chủ ngữ để nhấn mạnh, than
+đứng ở đầu mệnh để còn lại:
+ 	No sooner + auxiliary +S+V + than +S+ V
+Ví dụ:
+ 	• No sooner had we started out for California than it started to rain.
+
+Một ví dụ ở thời hiện tại (will được lấy sang dùng cho hiện tại)
+ 	• No sooner will he arrive than he will want to leave.
+Lưu ý:
+	S+ no longer + Positive Verb
+No longer có nghĩa là not anymore. Không dùng cấu trúc not longer cho các câu có ý nghĩa không còn ... nữa.
+  	• He no longer studies at the university.
+  	--&gt; He does not study at the university anymore.
+
+7. So sánh hơn kém không dùng than (giữa 2 đối tượng)
+Khi so sánh hơn kém giữa 2 người hoặc 2 vật mà không dùng than, muốn nói đối tượng nào đó là tốt hơn, giỏi hơn, đẹp hơn.. thì trước adj và adv so sánh phải có the. Chú ý phân biệt trường hợp này với trường hợp so sánh bậc nhất dưới đây (khi có 3 đối tượng trở lên). Trong câu thường có cụm từ of the two  noun, nó có thể đúng đầu hoặc cuối câu. 
+
+Ví dụ:
+ 	• Harvey is the smarter of the two boys.
+  	• Of the two shirts, this one is the prettier.
+  	• Pealse give me the smaller of the two cakes.
+  	• Of the two books, this one is the more interesting.
+
+9. So sánh bậc nhất (từ 3 đối tượng trở lên)
+Dùng khi so sánh 3 người hoặc 3 vật trở lên, một trong số đó là ưu việt nhất so với các đối tượng còn lại về một mặt nào đó. Để biến tính từ và phó từ thành dạng so sánh bậc nhất, áp dụng quy tắc sau:
+    - Đối với tính từ và phó từ ngắn: thêm đuôi -est.
+    - Đối với tính từ và phó từ dài: dùng most hoặc least.
+    - Trước tính từ hoặc phó từ so sánh phải có the.
+    - Dùng giới từ in với danh từ số ít đếm được.
+    - Dùng giới từ of với danh từ số nhiều đếm được.
+S+V + the + {(adjective + est) / (most + adjective) / (least + adjective)) + {(in + singular count noun)/ (of + plural count noun)}
+Ví dụ:
+	• John is the tallest boy in the family.
+	• Deana is the shortest of the three sisters.
+	• These shoes are the least expensive of all.
+ 	• Of the three shirts, this one is the prettiest.
+Sau cụm từ One of the + so sánh bộc nhất + noun phải đảm bảo chắc chắn rằng noun phải là số nhiều, và động từ phải chia ở số ít.
+	• One of the greatest tennis players in the world is Johnson.
+	• Kuwait is one of the biggest oil producers in the world.
+Các phó từ thường không có các hậu tố -er hoặc -est. Chúng được chuyển sang dạng so sánh tương đối bằng cách thêm more hoặc less: sang dạng so sánh tuyệt đối bằng cách thêm most hoặc least phía trước chúng.
+	• Sal drove more cautiously than Bob.
+	• Joe dances more gracefully than his partner.
+	• That child behaves most carelessly of all.
+Một số các tính từ hoặc phó từ mang tính tuyệt đối thì không được dùng so sánh bậc nhất, hạn chế dùng so sánh hơn kém, nếu buộc phải dùng thì bỏ more, chúng gồm: unique/extreme/ perfect/ supreme/ top/ absolute/prime/ primary
+  	• His drawings are perfect than mine.
+
+
+
+
+
+</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_44">
+    <attribute name="title">
+     <string>Đại từ quan hệ và trạng từ quan hệ</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_80">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_40">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_42">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_79">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_41">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>	ĐẠI TỪ QUAN HỆ VÀ TRẠNG TỪ QUAN HỆ
+1. Đại từ quan hệ
+* Who
+Dùng cho người, đúng sau danh từ chỉ người để làm chủ ngữ hoặc tân ngữ cho động từ đúng sau nó.
+- Who là chủ ngữ của mệnh để quan hệ:
+	• Her boyfrlend, who was atraid, asked her not to go out.
+	(Bạn trai cô ấy vì đang hoảng sợ, yêu cầu cô không được ra ngoài.)
+- Who là tân ngữ của mệnh để quan hệ:
+	• That is the girl who l am looking for.
+	(Đây là cô gái tôi đang tìm kiếm.)
+
+* Which
+Là đại từ quan hệ chỉ vật, đũng sau các danh từ chỉ con vật, đổ vật, sự vật, làm chức năng chủ ngữ hoặc tân ngữ cho động từ đứng sau nó.
+- Which thay thế cho danh từ chỉ vật sport và đóng vai trò là tân ngữ trong mệnh để quan hệ.
+	• This is the sport which I often practice whenever I have free time.
+	(Đây là môn thể thao mà tôi thường tập luyện mỗi khi có thời gian rỗi.)
+- Which thay thế cho danh từ chỉ vật shorts và đóng vai trò là chủ ngữ trong mệnh để quan hệ.
+	• The shorts which is dark- green is mine.
+	(Chiếc quần sooc màu xanh săm là của tôi.)
+
+* Of which
+Đại từ quan hệ chỉ sở hữu được dùng để chỉ sở hữu cho danh từ chỉ vật đứng trước, không dùng cho người.
+	• The windows of which are broken is mine.
+	(Ngôi nhà có cửa sổ bị vỡ là ngôi nhà của tôi.)
+
+* Whose
+Được dùng khi danh từ đứng sau nó thuộc sở hủu của danh từ đứng trước nó. Chú ý danh từ đi sau whose không có The.
+	• We often do not like people whose ideas are contrary to ours.
+	(Chúng ta thường không thích những người có ý tưởng khác với chúng ta.)
+
+*Whom
+Dùng cho người, đúng sau danh từ chỉ người để làm tân ngữ cho động từ đứng sau nó.
+	• She married a man whom she did not know much about.
+	(Cô ấy lấy người mình không biết rõ lắm.)
+
+* That
+Đại từ quan hệ chỉ người hoặc vật, đúng trước các danh từ chỉ người, vật, hoặc cả người cả vật để làm chủ ngữ hoặc tân ngữ.
+Chú ý:
+  - &quot;That&quot; có thể dùng để thay thế who, whom, which.
+  - &quot;That&quot; thường đuợc dùng trong các trường hợp sau:
+  - Khi mang nghĩa so sánh hơn nhất, số thứ tự: the most, the last/only/ first person, .
+  - Khi đi sau: all, same, any, only, none, little. và đôi khi sau It is/ It was
+  - Khi là các đại từ bất định: no ane, nobody, nothing, something, somebody, someone, anybody, anyone, anything, everything .
+  - Khi danh từ đúng trước bao gồm cả người lần vật.
+    	• The firemen managed to rescue the old lady and her cat that were stuck in the house.
+             (Người lính cứu hỏa cố gắng cứu cả bà cụ và con mèo của bà đang bị kẹt trong ngôi nhà.)
+
+2. Trạng từ quan hệ
+* When: in/on which
+Là trạng từ quan hệ chỉ thời gian được dùng để bổ nghĩa cho danh từ chỉ thời gian đứng trước nó.
+ 	• I stil remember the day when = on which we first met.
+  	(Em vẫn nhớ ngày đầu tiên chúng ta gặp nhau)
+
+*Where: in/at which
+Là trạng từ quan hệ chỉ nơi chốn được dùng để bổ nghĩa cho danh từ chỉ nơi chốn đứng trước nó.
+  	• This is the city where = in which I was born.
+  	(Đây là thành phố nơi tôi đã sinh ra.)
+
+*Why: for which
+Là trạng từ quan hệ chỈ lý do, thường theo sau bổ nghĩa cho danh từ &quot;the reason&quot;.
+ 	• That isn't the reason why they were late.
+  	(Đó là lý do tại sao họ lại đến muộn)
+
+3. NHỮNG LƯU Ý KHI DÙNG ĐẠI TỪ QUAN HỆ (WHO, WHICH, WHOM...)
+a) Khi nào dùng dấu phẩy ?
+Khi danh từ đứng trước who, which,whom.. là:
+- Danh từ riêng, tên:
+  	• Ha Noi, which...
+   	• Mary, who is...
+- Có this, that, these, those đúng trước danh từ:
+ 	• This book, which..
+- Có sở hửu đứng trước danh từ :
+ 	• My mother, who is...
+- Là vật duy nhất ai cũng biết: Sun (mặt trờ), moon (mặt trăng)
+ 	• The Sun, which...
+
+b) Đặt dấu phẩy ở đâu ?
+- Nếu mệnh để quan hệ ở giữa thì dùng 2 dấu phẩy đặt ở đầu và cuối mệnh để
+ 	• My mother, who is a cook, cooks very well
+- Nếu mệnh để quan hệ ở cuối thì dùng một dấu phẩy đặt ở đầu mệnh để, cuối mệnh để dùng dấu chấm.
+ 	• This is my mother, who is a cook.
+
+c) Khi nào có thể lược bỏ đại từ quan hệ WHO, WHICH, WHOM..
+- Khi nó làm túc từ và phía trước nó không có đấu phẩy, không có giới từ (whose không được bỏ)
+  	• This is the book which I buy.
+  	--&gt; This is the book l buy.
+      Ta thấy which là túc từ (chủ từ là 1, động từ là buy), phía trước không có phẩy hay giới từ gì cả nên có thể bỏ which đi:
+ 	• This is my book, which I bought 2 years ago.
+      Trước chữ which có dấu phẩy nên không thể bỏ được.
+ 	• This is the house in which I live.
+      Trước which có giới từ in nên cũng không bỏ which được.
+ 	• This is the man who Iives near my house.
+      Who là chủ từ (của động từ lives) nên không thể bỏ nó được.
+
+d). Khi nào KHÔNG ĐƯỢC dùng THAT:
+Khi phía trước nó có dấu phẩy hoặc giới từ:
+  	• This is my book, that I bought 2 years ago.
+    	--&gt; Sai vì phía trước có dấu phẩy - phải dùng which
+   	• This is the house in that I live.
+   	--&gt; Sai vì phía trước có giới từ in - phải dùng which
+e). Khi nào bắt buộc dùng THAT
+Khi danh từ mà nó thay thế gồm 2 danh từ trở lên trong đó vừa có ngừơi vừa có vật
+  	• The man and his dog that.
+   	--&gt; That thay thế cho: người và chó</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_45">
+    <attribute name="title">
+     <string>Rút gọn và lược bỏ mệnh đề quan hệ</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_82">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_41">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_43">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>821</width>
+          <height>494</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_81">
+         <item row="0" column="0">
+          <widget class="QPlainTextEdit" name="plainTextEdit_42">
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="plainText">
+            <string>RÚT GỌN MỆNH ĐỀ QUAN HỆ VÀ LƯỢC BỎ ĐẠI TỪ QUAN HỆ
+1. Rút gọn bằng cách dùng participle phrases (V-ing)
+Được dùng cho các mệnh để chủ động
+	• The woman who is standing over there is my mother
+	--&gt; The woman standing over there is my mother.
+       Ta thấy, trong ví dụ trên đại từ quan hệ who và động từ tobe(is) được lược bỏ đi làm cho câu gọn hơn.
+
+2. Rút gọn bằng cách dùng past participle phrase (V-ed)
+Được dùng cho mệnh để bị động
+	• I love songs which were presented by Maroon 5
+	--&gt; I love songs presented by Maroon 5
+Tương tự, đại từ quan hệ which và động từ to be(were) cũng được lược bỏ đi.
+
+3. Dùng cụm động từ nguyên mẫu (to infinitive)
+- Dùng khi đứng trước các từ bổ nghĩa như: only, first, second, last.
+	• He is the last person who left the office.
+	--&gt; He is the last person left the office
+      Từ ví dụ trên ta thấy, do trong câu có từ last nên đại từ quan hệ who được lược bỏ đi.
+- Động từ have/had:
+	• He had something that he could/ had to do
+	--&gt; He had something to do.
+       Ta thấy mệnh để sau có chứa đồng từ had nên câu sẽ được lược bỏ đi đại từ quan hệ that và động từ had.
+- Đầu câu có here(be). there(be)
+  	• There is a deadline which have to be done today.
+  	--&gt; There is a deadline to be done today.
+Trong phần to inf này các bạn cần nhớ 2 điều sau:
+  - Nếu chủ từ 2 mệnh để khác nhau thì thêm cụm for sb trước to inf.
+    	• We have some picture books that children can read.
+    	--&gt; We have some picture books for children to read.
+  - Tuy nhiên nếu chủ từ đó là đại từ có nghĩa chung chung như we, you, everyone.. thì có thể không cần ghi ra,
+   	• Studying abroad is the wonderful thing that we must think about.
+    	--&gt; Studying abroad is the wonderful (for us ) to think about.
+  - Nếu trước relative pronoun có giới từ thì phải đem xuống cuối câu. ( đây là lỗi dễ sai nhất).
+    	• We have a peg on which we can hang our coat.
+    	--&gt; We have a peg to hang our coat on.
+
+4.Dùng cụm danh từ
+Chúng ta sử dụng khi mệnh để tính từ có dạng:
+	S+ BE + DANH TỪ/CỤM DANH TỪ/CỤM GIỚI TỪ
+Chúng ta chỉ việc bỏ who, which và be
+ 	• Football, which is a popular sport, is very good for health
+ 	--&gt; Football, a popular sport, is very good for health.
+
+5. Mệnh để tính từ có dạng be và tính từ/cụm tính từ:
+Có 2 công thức rút gọn:
+ * Công thức 1: Bỏ who, which..to be-&gt; giữ nguyên tính từ phía sau.
+    - Điều kiện 1: Nếu phía trước that là đại từ phiếm chỉ như something, anything, anybody.
+  	• There must be something that is wrong.
+  	--&gt; There must be something wrong.
+    - Điều kiện 2: Có dấu phẩy phía trước và phải có từ 2 tính từ
+trở lên
+  	• My grandmother, who is old and sick, never goes out of the house.
+  	--&gt; My grandmother, old and sick, never goes out of the house.
+ * Công thức 2: Những trường hợp còn lại ta đem tính từ lên trước danh từ
+	• My grandmother, who is sick, never goes out of the house.
+  	--&gt; My sick grandmother never goes out of the house.
+	• I buy a hat which is very beautiful and fashionable.
+	--&gt; I buy a very beautiful and fashionable hat.
+Tuy nhiên nếu cụm tính từ gồm cả danh từ ở trong nó thì ta chỉ còn cách dùng V-ing mà thôi
+	• I met a man who was very good at both English and French.
+	--&gt; I met a man being very good at both English and French.
+Tóm lại cách rút gọn loại này khá phúc tạp vì nó tùy thuộc vào đến 3 yếu tố:
+ - Có một hay nhiều tinh từ
+ - Danh từ đùng trước có phải là phiếm chỉ không
+ - Có đấu phẩy hay không
+
+6. Mệnh để tính từ thành tính từ ghép
+Cách làm:
+Ta sẽ rút gọn mệnh để thành một tính từ ghép bằng cách tìm trong mệnh để một số đếm và danh từ đi sau nó, sau đó ta để chúng kế nhau và thêm dấu gạch nối ở giữa. Đem tính từ ghép đó ra trước danh từ đứng trước who, which.- những phân còn lại bỏ hết.
+Lưu ý:
+- Danh từ không được thêm &quot;s&quot;
+- Chỉ dùng được dạng này khi mệnh để tính từ có số đếm
+- Các cụm như tuổi thì sẽ viết lại cả 3 từ và gạch nối giữa
+	• I have a car which has four seats.
+	--&gt; I have a four-seat car.
+	• I had a holiday which lasted two days.
+	--&gt; I had a two-day holiday.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/new/image/img/study(2).jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>home</zorder>
+  <zorder>scrollArea_2</zorder>
+  <zorder>tabWidget</zorder>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

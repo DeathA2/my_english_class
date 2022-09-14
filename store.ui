@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Store</class>
+ <widget class="QDialog" name="Store">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>420</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/new/icon/img/home.png</normaloff>:/new/icon/img/home.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>491</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/new/icon/img/storepakcage.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>120</y>
+     <width>391</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/new/icon/img/storepackage.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>60</y>
+     <width>271</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/new/icon/img/storemid.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/new/image/img/supermarket.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="left1">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#left1
+{
+    background-color: transparent;
+	image: url(:/new/image/img/storeleft5.jpg);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#left1:hover
+{
+	
+	image: url(:/new/image/img/pink.jpg);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>500</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="left2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>370</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#left2
+{
+    background-color: transparent;
+	
+	image: url(:/new/image/img/storeleft2.jpg);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#left2:hover
+{
+	
+	image: url(:/new/image/img/pink.jpg);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>400</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="left3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>470</y>
+     <width>121</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#left3
+{
+    background-color: transparent;
+	
+	image: url(:/new/image/img/storeleft1.jpg);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#left3:hover
+{
+	
+	image: url(:/new/image/img/pink.jpg);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>1000</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="left4">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>530</y>
+     <width>111</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#left4
+{
+    background-color: transparent;
+	
+	image: url(:/new/image/img/storeleft4.jpg);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#left4:hover
+{
+	
+	image: url(:/new/image/img/pink.jpg);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>800</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="left5">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>250</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#left5
+{
+    background-color: transparent;
+	
+	image: url(:/new/image/img/storeleft3.jpg);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#left5:hover
+{
+	
+	image: url(:/new/image/img/pink.jpg);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>600</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="right2">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>480</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#right2
+{
+    background-color: transparent;
+	image: url(:/new/image/img/storeright3.jpg);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#right2:hover
+{
+	
+	image: url(:/new/image/img/pink.jpg);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>400</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="right3">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>270</y>
+     <width>111</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#right3
+{
+    background-color: transparent;
+	image: url(:/new/image/img/storeright1.jpg);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#right3:hover
+{
+	
+	image: url(:/new/image/img/pink.jpg);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>500</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="right4">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>360</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#right4
+{
+    background-color: transparent;
+	image: url(:/new/image/img/storeright2.jpg);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#right4:hover
+{
+	
+	image: url(:/new/image/img/pink.jpg);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>700</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="right1">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>530</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#right1
+{
+    background-color: transparent;
+	image: url(:/new/image/img/storeright4.jpg);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#right1:hover
+{
+	
+	image: url(:/new/image/img/pink.jpg);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>500</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mid">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>80</y>
+     <width>171</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#mid
+{
+    background-color: transparent;
+	
+	image: url(:/new/image/img/giftbox.png);
+	background-attachment: fixed;
+    background-repeat: none;    
+}
+QPushButton#mid:hover
+{
+	
+	
+	image: url(:/new/image/img/unbox.png);
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>80</y>
+     <width>171</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>home</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>left1</zorder>
+  <zorder>left2</zorder>
+  <zorder>left3</zorder>
+  <zorder>left4</zorder>
+  <zorder>left5</zorder>
+  <zorder>right2</zorder>
+  <zorder>right3</zorder>
+  <zorder>right4</zorder>
+  <zorder>right1</zorder>
+  <zorder>label_5</zorder>
+  <zorder>mid</zorder>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
